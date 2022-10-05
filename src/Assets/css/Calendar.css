@@ -1,0 +1,365 @@
+.academic-calendar{
+	padding:70px 0;
+	background:#fff;
+}
+
+.academic-calendar .academic-calendar-header{
+	text-align:center;
+	width:55%;
+	margin:0 auto 70px;
+}
+
+.academic-calendar .academic-calendar-header h2{
+	font-size:26px;
+	color:#303030;
+	text-transform:uppercase;
+	margin:0 0 30px;
+    font-weight: bold;
+    font-family: "Montserrat-Regular";
+}
+
+.academic-calendar .academic-calendar-header p{
+	font-size:18px;
+	line-height:25px;
+	color:#6a6a6a;
+	margin:0;
+	font-family: "Montserrat-Light";
+}
+
+.academic-calendar .academic-calendar-header p a{
+	color:#1c55a2;
+	text-decoration:underline
+}
+
+.calendar-nav{
+	background:#efefef;
+}
+
+.nav-year{
+	display:none;
+}
+
+.calendar-nav .year-title{
+	color:#0f4ea3 !important;
+	font-size:20px;
+	line-height:10px;
+	font-family: "Montserrat-Bold";
+	display:block;
+	text-align:center;
+	padding:25px 30px;
+}
+
+.calendar-nav .year-title a svg{
+	color:#0f4ea3;
+	font-size:20px;
+	line-height:-2px;
+}
+
+.tab-pane .year-title .yr-prev{
+	margin-right:10px;
+    color:#0f4ea3 ;
+}
+
+.calendar-nav .year-title .yr-next{
+	margin-left:10px;
+    color:#0f4ea3 ;
+}
+
+.calendar-nav ul{
+	position:absolute;
+	/* top:64px;
+	bottom:0; */
+	overflow-y:scroll;
+    height: 387px;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+}
+.calendar-nav ul li a{
+	font-size:20px;
+	color:#0f4ea3;
+	font-family: "Montserrat-Light";
+	padding:10px 30px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.nav-ul>li>a {
+    position: relative;
+    display: block;
+}
+
+.calendar-nav ul li.active a{
+	color:#fff;
+	background:#0f4ea3
+}
+
+.tab-month{
+	margin:0 -15px;
+}
+
+.calendar{
+	background:#fbfbfb;
+	overflow:hidden;
+	padding:50px 30px 30px;
+	border-right:1px solid #efefef;
+	position:relative;
+}
+
+.calendar .calendar-header ul{
+	margin:0 0 15px;
+	padding:0 0 15px 30px;
+	border-bottom:1px solid #d1d1d1;
+}
+
+.calendar .calendar-header ul li{
+	width:14.2857%;
+	text-align:center;
+	font-size:12px;
+	text-transform:uppercase;
+	color:#303030;
+	font-family: "Montserrat-Bold";
+	display:inline-block;
+	margin:0 -4px 0 0;
+	vertical-align:bottom;
+	padding:0 5px;
+}
+
+.calendar .calendar-body ul li{
+	width:14.2857%;
+	text-align:center;
+	font-size:14px;
+	text-transform:uppercase;
+	color:#303030;
+	font-family: "Montserrat-Light";
+	display:inline-block;
+	margin:0 -4px 15px 0;
+	vertical-align:bottom;
+	padding:5px;
+}
+
+.calendar .calendar-body ul li.inactive{
+	color:#cbcbcb;
+}
+
+.calendar .calendar-body ul li.event-1-start{
+	color:#fff;
+	background:#39b54a;
+	border-top-left-radius:20px;
+	border-bottom-left-radius:20px;
+}
+
+.calendar .calendar-body ul li.event-1{
+	color:#fff;
+	background:#39b54a;
+}
+
+.calendar .calendar-body ul li.event-1-end{
+	color:#fff;
+	background:#39b54a;
+	border-top-right-radius:20px;
+	border-bottom-right-radius:20px;
+}
+
+.calendar .calendar-body ul li.event-2-start{
+	color:#fff;
+	background:#ed145b;
+	border-top-left-radius:20px;
+	border-bottom-left-radius:20px;
+}
+
+.calendar .calendar-body ul li.event-2{
+	color:#fff;
+	background:#ed145b;
+}
+
+.calendar .calendar-body ul li.event-2-end{
+	color:#fff;
+	background:#ed145b;
+	border-top-right-radius:20px;
+	border-bottom-right-radius:20px;
+}
+
+.calendar .calendar-body ul li.event-3-start{
+	color:#fff;
+	background:#733d96;
+	border-top-left-radius:20px;
+	border-bottom-left-radius:20px;
+}
+
+.calendar .calendar-body ul li.event-3{
+	color:#fff;
+	background:#733d96;
+}
+
+.calendar .calendar-body ul li.event-3-end{
+	color:#fff;
+	background:#733d96;
+	border-top-right-radius:20px;
+	border-bottom-right-radius:20px;
+}
+
+.calendar .calendar-body ul li.event-4-start{
+	color:#fff;
+	background:#4ad9d9;
+	border-top-left-radius:20px;
+	border-bottom-left-radius:20px;
+}
+
+.calendar .calendar-body ul li.event-4{
+	color:#fff;
+	background:#4ad9d9;
+}
+
+.calendar .calendar-body ul li.event-4-end{
+	color:#fff;
+	background:#4ad9d9;
+	border-top-right-radius:20px;
+	border-bottom-right-radius:20px;
+}
+
+
+.calendar .calendar-body ul li.event-5-start{
+	color:#fff;
+	background:#f5ab35;
+	border-top-left-radius:20px;
+	border-bottom-left-radius:20px;
+}
+
+
+.calendar .calendar-body ul li.event-5{
+	color:#fff;
+	background:#f5ab35;
+}
+
+.calendar .calendar-body ul li.event-5-day{
+	color:#fff;
+	background:#f5ab35;
+	border-radius:20px;
+}
+
+.calendar .calendar-body ul li.event-5-end{
+	color:#fff;
+	background:#f5ab35;
+	border-top-right-radius:20px;
+	border-bottom-right-radius:20px;
+}
+
+.calendar .calendar-body{
+	margin:0 0 30px
+}
+
+.calendar .calendar-footer{
+	position:absolute;
+	bottom:30px;
+	left:30px;
+	right:30px;
+	margin:auto;
+    box-sizing: border-box;
+}
+
+.calendar .calendar-footer ul{
+	text-align:center
+}
+
+.calendar .calendar-footer ul li{
+	font-size:10px;
+	color:#909090;
+	display:inline-block;
+	margin:0 -4px 0 0;
+	vertical-align:middle;
+	padding:0 20px 0 0;
+	font-family: "Montserrat-Light";
+}
+
+.calendar .calendar-footer ul li:last-child{
+	padding:0 
+}
+
+.calendar .calendar-footer ul li span{
+	display:inline-block;
+	width:14px;
+	height:14px;
+	border-radius:50%;
+	margin:0 5px 0 0;
+	vertical-align:middle
+}
+
+.calendar .calendar-footer ul li.event-1 span{
+	background:#39b54a
+}
+
+.calendar .calendar-footer ul li.event-2 span{
+	background:#ed145b
+}
+
+.calendar .calendar-footer ul li.event-3 span{
+	background:#733d96
+}
+
+.calendar .calendar-footer ul li.event-4 span{
+	background:#4ad9d9
+}
+
+.calendar-note{
+	background:#fff;
+	overflow:hidden;
+	padding:40px 30px 30px;
+    font-weight: bold !important;
+}
+
+.calendar-note h3{
+	color:#555;
+	font-size:20px;
+	margin:0 0 20px;
+	padding:0 0 15px;
+	border-bottom:1px solid #d1d1d1
+}
+
+.calendar-note ul li{
+	font-size:14px;
+	color:#909090;
+	margin:0 0 40px;
+	font-family: "Montserrat-Light";
+}
+
+.calendar-note ul li:last-child{
+	margin:0;
+}
+
+.calendar-note ul li span{
+	font-size:16px;
+	color:#555;
+	font-family: "Montserrat-Regular";
+	display:inline-block;
+	margin:0 10px 0 0;
+}
+
+.calendar-info > div{
+	display:table-cell;
+	float:none;
+	vertical-align:top;
+}
+
+.calendar-info > .calendar{
+	width:35%
+}
+
+.calendar-info > .calendar-note{
+	width:65%
+}
+
+.tab-content {
+    border:1px solid #efefef23;
+}
+
+.academic-calendar > .container > .row > .tab-content > .tab-pane{
+	border:1px solid #efefef;
+}
+
+.academic-calendar .container .row .tab-content > .tab-pane > div{
+	display:table-cell;
+	float:none;
+	vertical-align:top;
+	position:relative
+}

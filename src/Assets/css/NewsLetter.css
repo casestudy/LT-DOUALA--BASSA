@@ -1,0 +1,101 @@
+.newsletter{
+	background:#fff;
+	padding:0 0 70px
+}
+
+.newsletter-content{
+	background:url(../newsletter-bg.jpg) no-repeat center center;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	padding:40px;
+	position:relative;
+	border-radius:5px;
+	margin:0 15px;
+}
+
+.newsletter-content:before{
+	content: "";
+	display:block;
+	background:rgba(14, 74, 149, 0.9);
+	position:absolute;
+	top:0;
+	left:0;
+	right:0;
+	bottom:0;
+}
+
+.newsletter .newsletter-content-row {
+    position:relative;
+}
+
+/* .newsletter-content > div{
+	float:none;
+	display:inline-block;
+	margin:0 -4px 0 0;
+	vertical-align:middle;
+} */
+
+.newsletter-content-row h2{
+	font-size:18px;
+	color:#fff;
+	font-family: "Montserrat-Light";
+}
+
+.newsletter-content-row h2 span{
+	display:block;
+	font-size:22px;
+	color:#fafafa;
+	margin:0 0 20px;
+	font-family: "Montserrat-Bold";
+}
+
+.newsletter-content-row input[type="email"]{
+	padding:20px 30px;
+	color:#909090;
+	font-size:16px;
+	line-height:16px;
+	font-family: "Montserrat-Light";
+	border-radius:5px;
+	border:none;
+	display:inline-block;
+	margin:0 20px 0 0;
+	vertical-align:middle;
+	width:60%;
+}
+
+.newsletter-content input[type="email"]::-webkit-input-placeholder{
+	color: #909090;
+	font-family: "Montserrat-Light";
+}
+.newsletter-content input[type="email"]::-moz-placeholder{
+	color: #909090;
+	font-family: "Montserrat-Light";
+}
+
+.newsletter-content input[type="email"]::-ms-input-placeholder{
+	color: #909090;
+	font-family: "Montserrat-Light";
+}
+
+.newsletter-content input[type="email"]:-moz-placeholder{ 
+	color: #909090;
+	font-family: "Montserrat-Light";
+}
+
+.newsletter-content-row .primary-link{
+	background: #f5ab35 none repeat scroll 0 0;
+    border-bottom: 4px solid #f58c04;
+    border-radius: 5px;
+    color: #fff;
+    display: inline-block;
+    font-size: 18px;
+	line-height:25px;
+    padding: 15px 45px;
+    position: relative;
+    text-align: center;
+    vertical-align: middle;
+	transition: all 0.5s;
+    text-decoration: none;
+}

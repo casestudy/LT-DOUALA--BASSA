@@ -1,0 +1,28 @@
+
+.featured-gallery a:hover img{
+	outline:10px solid #f58c04;
+	outline-offset: -10px;
+	opacity:.8;
+	transition: all 0.3s;
+}
+
+.featured-gallery img{
+	width:100%;
+	height:auto;
+	max-width:100%;
+	display:block;
+	margin:0 0 2px;
+	transition: all 0.3s;
+}
+
+.featured-gallery .row{
+	margin:0 -1px
+}
+
+.featured-gallery .row > div{
+	padding:0 1px;
+}
+
+.featured-gallery .gallery-lightbox{
+	display:none
+}

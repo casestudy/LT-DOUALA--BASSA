@@ -1,3 +1,39 @@
+/* @import '~antd/dist/antd.css'; */
+
+@font-face {
+  font-family: "Montserrat-Regular"; 
+  src: url("./Assets/fonts/Montserrat-Regular.otf");
+}
+@font-face {
+  font-family: "Montserrat-Light";
+  src: url("./Assets/fonts/Montserrat-Light.otf");
+}
+@font-face {
+  font-family: "Montserrat-Bold";
+  src: url("./Assets/fonts/Montserrat-Bold.otf");
+}
+
+@font-face {
+  font-family: "Montserrat-Black";
+  src: url("./Assets/fonts/Montserrat-Black.otf");
+}
+
+@font-face {
+  font-family: "Montserrat-Hairline";
+  src: url("./Assets/fonts/Montserrat/static/Montserrat-hairline.ttf");
+}
+
+
+body{
+	font-family: "Montserrat-Regular";
+	background:#fafafa;
+	overflow-x: hidden;
+}
+
+.hide-scroll{
+	overflow-y:hidden;
+}
+
 .App {
   text-align: center;
 }

@@ -1,0 +1,55 @@
+.achievements{
+	background:url(../achievements-bg.jpg) no-repeat center center;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	position:relative;
+	padding:70px 0;
+}
+
+.achievements:before{
+	background:rgba(14, 74, 149, 0.9);
+	display:block;
+	content: "";
+	position:absolute;
+	top:0;
+	bottom:0;
+	left:0;
+	right:0;
+}
+
+
+.achievements .section-header,
+.achievements .section-content{
+	position:relative;
+	text-align:center
+}
+
+.achievements .section-header{
+	margin:0 0 70px;
+}
+
+.achievements .section-header h2{
+	text-transform:uppercase;
+	color:#fff;
+	font-size:26px;
+    font-weight: bolder;
+}
+
+.achievements .section-content h3{
+	font-size:40px;
+	color:#fff;
+	font-family: "Montserrat-Bold";
+	margin:0 0 20px;
+    font-weight: bolder;
+}
+
+.achievements .section-content p{
+	font-size:18px;
+	margin:0;
+	color:#fff;
+	font-family: "Montserrat-Light";
+	text-transform:uppercase;
+    font-weight: bolder;
+}

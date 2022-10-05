@@ -1,0 +1,158 @@
+.testimonials{
+	padding:70px 0 0
+}
+
+.testimonials .tab-content{
+	padding:100px 105px 70px;
+	position:relative;
+}
+
+.quote-icon{
+	display:block;
+	font-size:37px;
+	width:37px;
+	height:37px;
+	position:absolute;
+	top:0;
+	left:0;
+	right:0;
+	margin:auto;
+	color:#cbcbcb
+}
+
+.testimonials .tab-content .tab-pane{
+	color:#303030;
+	font-size:17px;
+	line-height:28px;
+	text-align:center;
+	font-family: "Montserrat-Light";
+    font-weight: bold;
+    margin:0 55px 15px 55px;
+}
+
+.testimonials .tab-content .tab-pane p{
+	margin:0 0 15px;
+}
+
+.testimonials .tab-content .tab-pane p:last-child{
+	margin:0;
+}
+
+.testimonials .tes li{
+	display:inline-block;
+	vertical-align:bottom;
+	width:20%;
+}
+
+.tes div {
+    width: 96%;
+    align-items: center;
+    position: absolute;
+    margin: 0 auto;
+}
+
+.tes li a{
+	text-align:center;
+	opacity:.7;
+    padding:30px 15px;
+	transition: all .3s ease;
+    text-decoration: none;
+}
+
+.testimonials .tes li div a img{
+	width:73px;
+	height:73px;
+    margin: 0 auto 20px;
+	display:block;
+	border-radius:50%;
+	border:2px solid #fff
+}
+
+.testimonials .tes li div a strong{
+	color:#303030;
+	font-size:15px;
+	display:block;
+	margin:0 0 15px;
+	font-weight:normal;
+}
+
+.testimonials .tes li div a span{
+	display:block;
+	font-size:12px;
+	color:#818181;
+	font-family: "Montserrat-Light";
+}
+
+.selected {
+    /* background: #0f4ea3 !important; */
+	opacity:1 !important; 
+    border-top-right-radius:10px;
+	border-top-left-radius:10px;
+}
+
+.tes>li>div {
+    position: relative;
+    display: block;
+    padding-left: 10px;
+}
+
+.selected div {
+    background-color: #0f4ea3 !important;
+	opacity:1 !important; 
+    border-top-right-radius:10px;
+	border-top-left-radius:10px;
+    width: 96%;
+    align-items: center;
+    position: absolute;
+    margin: 0 auto;
+}
+
+.selected div a {
+    opacity:1 !important;
+}
+
+.tes li:hover div {
+    background: #0f4ea3 !important;
+	opacity:1 !important; 
+    border-top-right-radius:10px;
+	border-top-left-radius:10px;
+}
+
+.tes li:hover div a {
+	opacity:1 !important; 
+}
+
+.tes li:hover div a strong,
+.tes li:hover div a span  {
+    color:#fff;
+    font-weight: bold;
+}
+
+.testimonials .tes .selected a img{
+	width:111px;
+	height:111px;
+    
+
+}
+
+.testimonials .tes .selected a strong{
+	color:#fff;
+	font-size:20px;
+    font-weight: bold;
+}
+
+.testimonials .tes .selected:hover a strong{
+	color:#fff;
+    font-weight: bold;
+    font-size:20px;
+}
+
+.testimonials .tes .selected a span{
+	color:#fff;
+	font-size:16px;
+    font-weight: bold;
+}
+
+.testimonials .tes .selected:hover a span{
+	color:#fff !important;
+}

@@ -1,0 +1,23 @@
+.sponsor{
+	padding:70px 0;
+	background:#fff
+}
+
+.page-sponsor{
+	padding:70px 0;
+	background:#fafafa
+}
+
+.page-sponsor .sponsor-logo > div,
+.sponsor .sponsor-logo > div{
+	float:none;
+	display:inline-block;
+	margin:0 -4px 0 0;
+	vertical-align:middle;
+}
+
+.page-sponsor .sponsor-logo img,
+.sponsor .sponsor-logo img{
+	display:block;
+	margin:0 auto;
+}

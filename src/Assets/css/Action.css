@@ -1,0 +1,77 @@
+.call-to-action{
+	background:#fff
+}
+
+.call-to-action-content{
+	background:url(../call-to-action-bg.jpg) no-repeat center center;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	padding:25px 45px;
+	position:relative;
+	margin:0 -15px;
+}
+
+.call-to-action-content:before{
+	content: "";
+	display:block;
+	background:rgba(38, 87, 152, .9);
+	position:absolute;
+	top:0;
+	left:0;
+	right:0;
+	bottom:0;
+}
+
+.call-to-action-content > div{
+	float:none;
+	display:inline-block;
+	margin:0 -4px 0 0;
+	vertical-align:middle;
+}
+
+.call-to-action-content img{
+	display:inline-block;
+	position:relative;
+	margin:0 45px 0 0;
+	vertical-align:middle;
+}
+
+.call-to-action-content p{
+	margin:0;
+	font-size:23px;
+	line-height:20px;
+	font-family: "Montserrat-Light";
+	display:inline-block;
+	position:relative;
+	vertical-align:middle;
+	color:#fff;
+	letter-spacing: 1px;
+}
+
+.call-to-action-content p strong{
+	font-size:24px;
+	display:block;
+	color:#fff;
+	font-family: "Montserrat-Bold";
+	text-transform:uppercase;
+	letter-spacing: 1px;
+}
+
+.call-to-action-content a{
+	display:inline-block;
+	text-align:center;
+	position:relative;
+	vertical-align:middle;
+	padding:15px 45px;
+	font-size:20px;
+	line-height:25px;
+	color:#fff;
+	background:#f5ab35;
+	float:right;
+	border-bottom:4px solid #f58c04;
+	border-radius:5px;
+	transition: all 0.5s;
+    text-decoration: none;
+}

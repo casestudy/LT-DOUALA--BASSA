@@ -1,0 +1,58 @@
+.site-header {
+    margin: 30px auto;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    z-index: 9999;
+}
+
+.navbar-nav > li {
+    float: none;
+    position: relative;
+}
+
+.nav li {
+    float: none;
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0 5px 0 0;
+}
+
+.nav li a {
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+.navbar-light .navbar-nav a::after {
+    bottom: -10px;
+    content: " ";
+    left: 0;
+    position: absolute;
+    right: 0;
+    text-align: center;
+    display: inline-block;
+    left:25%; right:25%; 
+}
+
+.nav-item.active {
+    border-bottom: 5px solid #004296;
+}
+
+.navbar-nav a:hover, .navbar-nav a:focus {
+	border-bottom: 5px solid #004296;
+    -moz-transition: all 0.3s ease-in-out 0s;
+    -webkit-transition: all 0.3s ease-in-out 0s;
+    -ms-transition: all 0.3s ease-in-out 0s;
+    -o-transition: all 0.3s ease-in-out 0s;
+    transition: all 0.3s ease-in-out 0s;
+}
+
+.nav li a {
+    font-size: 15px;
+    text-transform: uppercase;
+    color: #004296 !important;
+    padding: 25px 30px 30px !important;
+    background: none !important;
+    font-weight: bold;
+}

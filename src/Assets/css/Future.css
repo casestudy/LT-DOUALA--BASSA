@@ -1,0 +1,75 @@
+@font-face {
+    font-family: "Montserrat-Regular"; 
+    src: url("../fonts/Montserrat/static/Montserrat-Regular.ttf");
+  }
+  @font-face {
+    font-family: "Montserrat-Light";
+    src: url("../fonts/Montserrat/static/Montserrat-Light.ttf");
+  }
+  @font-face {
+    font-family: "Montserrat-Bold";
+    src: url("../fonts/Montserrat/static/Montserrat-Bold.ttf");
+  }
+  
+  @font-face {
+    font-family: "Montserrat-Black";
+    src: url("../fonts/Montserrat/static/Montserrat-Black.ttf");
+  }
+  
+  @font-face {
+    font-family: "Montserrat-Hairline";
+    src: url("../fonts/Montserrat/static/Montserrat-hairline.ttf");
+  }
+  
+.we-have-faith {
+    background:#fff;
+	padding:70px 0;
+}
+
+.we-have-faith .section-header{
+	width:55%;
+	margin:0 auto 70px;
+}
+
+.we-have-faith .section-header h3{
+	color:#303030;
+	font-size:26px;
+	line-height:normal;
+	text-align:center;
+	margin:0 0 30px;
+	text-transform:uppercase
+}
+
+.we-have-faith .section-header p{
+	color:#6a6a6a;
+	font-size:13px;
+	line-height:25px;
+	text-align:center;
+	margin:0;
+}
+
+.we-have-faith .section-content{
+	text-align:center;
+}
+
+.we-have-faith .section-content > div{
+	float:none;
+	display:inline-block;
+	vertical-align:bottom;
+	margin:0 -4px 0 0;
+}
+
+.we-have-faith .section-content h4{
+	margin:25px 0;
+	font-size:22px;
+	color:#303030;
+	line-height:normal;
+}
+
+.we-have-faith .section-content p{
+	font-size:13px;
+	font-family: "Montserrat-Light";
+	color:#6a6a6a;
+	line-height:20px;
+	padding:0 10px;
+}
