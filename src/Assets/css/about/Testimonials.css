@@ -1,0 +1,127 @@
+.about-us-testimonials{
+	background:#fff;
+	padding:70px 0
+}
+
+.about-us-testimonials .tab-content{
+	padding:100px 105px 40px;
+	position:relative
+}
+
+.quote-icon{
+	display:block;
+	font-size:37px;
+	width:37px;
+	height:37px;
+	position:absolute;
+	top:0;
+	left:0;
+	right:0;
+	margin:auto;
+	color:#cbcbcb;
+    font-weight: bold;
+}
+
+.about-us-testimonials .tab-content .tab-pane{
+	color:#303030;
+	font-size:17px;
+	line-height:28px;
+	text-align:center;
+	font-family: "Montserrat-Light";
+    font-weight: bold;
+    margin:0 55px 15px 55px;
+}
+
+.about-us-testimonials .tab-content .tab-pane p{
+	margin:0 0 15px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.about-us-testimonials .tab-content .tab-pane p:last-child{
+	margin:0;
+}
+
+.about-us-testimonials .tab-content hr{
+	background:#cbcbcb;
+	width:70px;
+	margin:35px auto;
+}
+
+.about-us-testimonials .tab-content .tab-pane strong{
+	color:#303030;
+	font-size:20px;
+	line-height:20px;
+	display:block;
+	margin:0 0 15px;
+	font-weight:normal;
+	font-family: "Montserrat-Bold";
+}
+
+.about-us-testimonials .tab-content .tab-pane span{
+	display:block;
+	font-size:16px;
+	line-height:16px;
+	margin:0;
+	color:#303030;
+	font-family: "Montserrat-Light";
+}
+
+.about-us-testimonials .testimonial-nav{
+	text-align:center;
+    margin:0 0 70px;
+}
+
+.about-us-testimonials .testimonial-nav li{
+	display:inline-block;
+	margin:0 -4px 0 0;
+	vertical-align:bottom;
+	padding:0 30px
+}
+
+.about-us-testimonials .testimonial-nav li a{
+	background:#fff;
+	text-align:center;
+	padding:0;
+	border-top-right-radius:10px;
+	border-top-left-radius:10px;
+	transition: all .3s ease;
+}
+
+.about-us-testimonials .testimonial-nav li a img{
+	width:111px;
+	height:111px;
+	margin:0 auto 20px;
+	display:block;
+	border-radius:50%;
+	border:7px solid #fff;
+	opacity:.5
+}
+
+.about-us-testimonials .testimonial-nav li.selected a img,
+.about-us-testimonials .testimonial-nav li:hover a img{
+	opacity:1;
+	-webkit-box-shadow: 0px 0px 18px 5px rgba(0,0,0,0.2);
+	-moz-box-shadow: 0px 0px 18px 5px rgba(0,0,0,0.2);
+	box-shadow: 0px 0px 18px 5px rgba(0,0,0,0.2);
+}
+
+.about-us-testimonials .about-us-contact{
+	text-align:center;
+}
+
+.about-us-testimonials .about-us-contact .primary-link{
+	background: #f5ab35 none repeat scroll 0 0;
+    border-bottom: 4px solid #f58c04;
+    border-radius: 5px;
+    color: #fff;
+    display: inline-block;
+    font-size: 18px;
+	line-height:25px;
+    padding: 15px 45px;
+    position: relative;
+    text-align: center;
+    vertical-align: middle;
+	text-transform:uppercase;
+    text-decoration: none;
+}

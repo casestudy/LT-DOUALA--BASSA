@@ -7,15 +7,19 @@ interface Prop {
     quote: string
 }
 
-const TestimonialQuote: React.FC<Prop> = ({cname, id, quote}) => {
+const Quote: React.FC<Prop> = ({cname, id, quote}) => {
 
     return(
         <>
             <div className={cname} id={id}>
                 <p style={{fontWeight: "bold", textAlign: "center"}}> "{quote}" </p>
+
+                <hr />
+                <strong>Marie Nichols</strong>
+                <span>Student of Sociology</span>
             </div>
         </>
     );
 }
 
-export default TestimonialQuote;
+export default Quote;

@@ -1,0 +1,32 @@
+.about-us-achievements{
+	margin:0 0 -83px
+}
+
+.about-us-achievements .section-content{
+	text-align:center;
+	background:#fff;
+	position:relative;
+	padding:45px 0;
+	-webkit-box-shadow: 0px 20px 27px 0px rgba(0,0,0,0.2);
+	-moz-box-shadow: 0px 20px 27px 0px rgba(0,0,0,0.2);
+	box-shadow: 0px 20px 27px 0px rgba(0,0,0,0.2);
+}
+
+.about-us-achievements .section-content h3{
+	font-size:40px;
+	line-height:40px;
+	color:#303030;
+	font-family: "Montserrat-Bold";
+	margin:0 0 20px;
+    font-weight: bold;
+}
+
+.about-us-achievements .section-content p{
+	font-size:18px;
+	line-height:18px;
+	margin:0;
+	color:#303030;
+	font-family: "Montserrat-Light";
+	text-transform:uppercase;
+    font-weight: bold;
+}
