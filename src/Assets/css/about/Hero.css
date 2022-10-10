@@ -27,3 +27,21 @@
 	z-index:1;
 	text-align:center;
 }
+
+.hero-content .hero-caption{
+	padding:100px 0 0
+}
+
+.hero-content .hero-caption h2{
+	line-height:auto;
+	color:#fff;
+	font-family: "Montserrat-Light";
+	margin:0 0 20px;
+}
+
+.about-us-hero .hero-content p{
+	font-size:22px;
+	color:#a6b5d4;
+	font-family: "Montserrat-Light";
+	margin:0;
+}

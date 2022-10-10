@@ -13,7 +13,14 @@ const Hero: React.FC<Prop> = () => {
     return(
         <>
             <div className='about-us-hero'>
-
+                <Container>
+                    <div className='hero-content'>
+                        <div className='hero-caption'>
+                            <h2>We are determined to achieve the highest standards</h2>
+                            <p>in everything that we do.</p>
+                        </div>
+                    </div>
+                </Container>
             </div>
         </>
     )
