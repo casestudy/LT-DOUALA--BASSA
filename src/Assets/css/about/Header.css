@@ -27,35 +27,6 @@
 	padding:0 20px;
 }
 
-.site-header #site-navigation .nav li a{
-	font-size:13px;
-	text-transform:uppercase;
-	color:#fff;
-	padding:12px 19px 15px;
-	background:none!important;
-	position:relative;
-}
-
-.site-header #site-navigation .nav li a:before{
-	content: "";
-	height:2px;
-	background:#f5ab35;
-	position:absolute;
-	bottom:0;
-	right:100%;
-	left:5px;
-	transition: all 0.4s;
-}
-
-.site-header #site-navigation .nav li:hover a:before{
-    right: 5px;
-}
-
-.site-header #site-navigation .nav li.active a:before{
-	left:5px;
-	right:5px;
-}
-
 .site-header #site-navigation .navbar-right li:hover a:before{
 	display:none
 }
@@ -63,14 +34,14 @@
 .about-navbar-nav {
 	text-align: left !important;
 	margin-left: 50px !important;
-	margin-top: 12px !important;
+	margin-top: 5px !important;
 }
 
 .about-navbar-nav > li > a {
     text-decoration: none;
 	color: white !important;
 	text-align: left !important;
-	padding: 12px 19px 15px !important;
+	padding: 12px 40px 15px !important;
 }
 
 .navbar-right li{
@@ -85,6 +56,43 @@
 	text-align: left !important;
 	padding: 15px 19px 15px !important;
 	bottom: -10px;
+}
+
+.navbar-left a:after {
+	transition: all ease-in-out .2s;
+    background: none repeat scroll 0 0 #f5ab35;
+    content: "";
+    display: block;
+    height: 3px;
+    width: 0;
+	position: relative;
+	left: 18px;
+	bottom: -10px;
+}
+
+/* .navbar-left .about-nav-item.active */
+
+/* .navbar-left a:hover {
+	border-bottom: 5px solid #f5ab35;
+	transition-property: all;
+    transition-duration: 0.4s;
+    transition-timing-function: ease;
+    
+	transition: all 0.3s ease-in-out 0.2s;
+} */
+
+.navbar-left > .active > a::after {
+    background: none repeat scroll 0 0 #f5ab35;
+    content: "";
+    display: block;
+    height: 3px;
+    width: 100%;
+	position: relative;
+	left: 18px;
+	bottom: -10px;
+}
+.navbar-left a:hover:after {
+	width: 100%;
 }
 
 #js-bootstrap-offcanvas:after {

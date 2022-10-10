@@ -32,7 +32,7 @@ const Header: React.FC<Prop> = () => {
                         <Nav id="site-navigation" className="navbar">
                             <div className='navbar-offcanvas navbar-offcanvas-touch navbar-offcanvas-right offcanvas-transform js-offcanvas-done' id='js-bootstrap-offcanvas'>
                                 <Row style={{margin: "0 auto"}}>
-                                    <ul className="about-navbar-nav" style={{textAlign: "center", width: "100%", float: "none"}}>
+                                    <ul className="about-navbar-nav navbar-left" style={{textAlign: "center", width: "100%", float: "none"}}>
                                         <li className="about-nav-item active"><a href="about.html">About</a></li>
                                         <li className="about-nav-item"><a href="academics.html">Academics</a></li>
                                         <li className="about-nav-item"><a href="events.html">Events</a></li>
