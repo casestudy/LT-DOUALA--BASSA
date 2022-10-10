@@ -6,7 +6,9 @@ import Col from 'react-bootstrap/Col';
 import '../../../Assets/css/about/Header.css';
 import Nav from 'react-bootstrap/Nav';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { solid, regular, brands, icon } from '@fortawesome/fontawesome-svg-core/import.macro' 
+import { faSearch } from '@fortawesome/free-solid-svg-icons'
+import { faUser } from '@fortawesome/free-solid-svg-icons'
+//import { solid, regular, brands, icon } from '@fortawesome/fontawesome-svg-core/import.macro' 
 // import Navbar from 'react-bootstrap/Navbar';
 // import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 // import { faLocationDot } from '@fortawesome/free-solid-svg-icons'
@@ -51,12 +53,12 @@ const Header: React.FC<Prop> = () => {
                             <ul className='about-navbar-nav navbar-right'>
                                 <li>
                                     <a href="search">
-                                        <FontAwesomeIcon icon={brands('twitter')} />
+                                        <FontAwesomeIcon icon={faSearch} />
                                     </a>
                                 </li>
                                 <li>
                                     <a href="twitter">
-                                        <FontAwesomeIcon icon={brands('twitter')} />
+                                        <FontAwesomeIcon icon={faUser} />
                                     </a>
                                 </li>
                             </ul>
