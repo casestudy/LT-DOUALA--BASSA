@@ -4,6 +4,7 @@ import './index.css';
 import Home from './App';
 import AboutUs from './Components/UI/About/AboutUs'
 import Academics from './Components/UI/Academics/Academics'
+import Events from './Components/UI/Events/Events'
 import reportWebVitals from './reportWebVitals';
 import { BrowserRouter as Router, Link, Routes, Route, BrowserRouter } from "react-router-dom";
 
@@ -15,6 +16,7 @@ export default function MainApp() {
         <Route index element={<Home />} />
         <Route path="aboutus" element={<AboutUs />} />
         <Route path="academics" element={<Academics />} />
+        <Route path="events" element={<Events />} />
       </Routes>
     </BrowserRouter>
   );

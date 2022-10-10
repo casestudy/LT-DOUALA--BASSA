@@ -53,7 +53,15 @@ const Header: React.FC<Prop> = ({value}) => {
         schedules = "about-nav-item";
         contacts = "about-nav-item";
         resources = "about-nav-item";
-    } 
+    } else if(value === "events") {
+        about = "about-nav-item";
+        academics = "about-nav-item";
+        events = "about-nav-item active";
+        news = "about-nav-item";
+        schedules = "about-nav-item";
+        contacts = "about-nav-item";
+        resources = "about-nav-item";
+    }
 
     return(
         <>
@@ -71,7 +79,7 @@ const Header: React.FC<Prop> = ({value}) => {
                                     <ul className="about-navbar-nav navbar-left" style={{textAlign: "center", width: "100%", float: "none"}}>
                                         <li className={about}><Link to = "/aboutus">About</Link></li>
                                         <li className={academics}><Link to = "/academics">Academics</Link></li>
-                                        <li className={events}><a href="events.html">Events</a></li>
+                                        <li className={events}><Link to="/events">Events</Link></li>
                                         <li className={news}><a href="news.html">News</a></li>
                                         <li className={schedules}><a href="schedule.html">Schedule</a></li>
                                         <li className={contacts}><a href="contact.html">Contact</a></li>

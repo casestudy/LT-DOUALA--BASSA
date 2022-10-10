@@ -1,0 +1,41 @@
+.events-hero{
+	position:relative;
+	background:url(../../events-bg.jpg) no-repeat center center;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	margin:0 0 -85px;
+	min-height:549px;
+	display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.events-hero:after{
+	content: "";
+	position:absolute;
+	left:0;
+	right:0;
+	top:0;
+	bottom:0;
+	background: rgba(0, 66, 150, 0.9)
+}
+
+.events-hero .hero-content{
+	position:relative;
+	z-index:1;
+	text-align:center;
+}
+
+.hero-content .hero-caption{
+	padding:100px 0 0
+}
+
+.hero-content .hero-caption h2{
+	line-height:auto;
+	color:#fff;
+	font-family: "Montserrat-Light";
+	margin:0 0 20px;
+	font-weight: bold;
+}

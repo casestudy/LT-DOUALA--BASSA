@@ -28,7 +28,7 @@ const Navigation: React.FC<Prop> = () => {
                                 <li className="nav-item active"><Link className="nav-link" to="/home">Home</Link></li>
                                 <li className="nav-item"><Link className="nav-link" to="/aboutus" onClick={navigationRoute}>About</Link></li>
                                 <li className="nav-item"><Link className="nav-link" to="/academics">Academics</Link></li>
-                                <li className="nav-item"><a className="nav-link" href="#events">Events</a></li>
+                                <li className="nav-item"><Link className="nav-link" to="/events">Events</Link></li>
                                 <li className="nav-item"><a className="nav-link" href="#contact">News</a></li>
                                 <li className="nav-item"><a className="nav-link" href="#offers">Schedule</a></li>
                                 <li className="nav-item"><a className="nav-link" href="#offers">Contact</a></li>
