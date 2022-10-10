@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import Home from './App';
 import AboutUs from './Components/UI/About/AboutUs'
+import Academics from './Components/UI/Academics/Academics'
 import reportWebVitals from './reportWebVitals';
 import { BrowserRouter as Router, Link, Routes, Route, BrowserRouter } from "react-router-dom";
 
@@ -13,6 +14,7 @@ export default function MainApp() {
         <Route path="/" element={<Home />}/>
         <Route index element={<Home />} />
         <Route path="aboutus" element={<AboutUs />} />
+        <Route path="academics" element={<Academics />} />
       </Routes>
     </BrowserRouter>
   );

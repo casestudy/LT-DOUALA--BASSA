@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import 'bootstrap/dist/css/bootstrap.css'
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
@@ -16,10 +16,46 @@ import { faUser } from '@fortawesome/free-solid-svg-icons'
 import SchoolLogo from '../../../Assets/logo-1.png';
 
 interface Prop {
-
+    value: string
 }
 
-const Header: React.FC<Prop> = () => {
+const Header: React.FC<Prop> = ({value}) => {
+
+    console.log(value);
+
+    let about = "";
+    let academics = "";
+    let events = "";
+    let news = "";
+    let schedules = "";
+    let contacts = "";
+    let resources = "";
+
+    // const [about, setAbout] = useState('');
+    // const [academics, setAcademics] = useState('active');
+    // const [events, setEvents] = useState('');
+    // const [news, setNews] = useState('');
+    // const [schedules, setSchedules] = useState('');
+    // const [contacts, setContacts] = useState('');
+    // const [resources, setResources] = useState('');
+
+    if(value === "about") {
+        about = "about-nav-item active";
+        academics = "about-nav-item";
+        events = "about-nav-item";
+        news = "about-nav-item";
+        schedules = "about-nav-item";
+        contacts = "about-nav-item";
+        resources = "about-nav-item";
+    } else if(value === "academics") {
+        about = "about-nav-item";
+        academics = "about-nav-item active";
+        events = "about-nav-item";
+        news = "about-nav-item";
+        schedules = "about-nav-item";
+        contacts = "about-nav-item";
+        resources = "about-nav-item";
+    } 
 
     return(
         <>
@@ -35,13 +71,13 @@ const Header: React.FC<Prop> = () => {
                             <div className='navbar-offcanvas navbar-offcanvas-touch navbar-offcanvas-right offcanvas-transform js-offcanvas-done' id='js-bootstrap-offcanvas'>
                                 <Row style={{margin: "0 auto"}}>
                                     <ul className="about-navbar-nav navbar-left" style={{textAlign: "center", width: "100%", float: "none"}}>
-                                        <li className="about-nav-item active"><a href="about.html">About</a></li>
-                                        <li className="about-nav-item"><a href="academics.html">Academics</a></li>
-                                        <li className="about-nav-item"><a href="events.html">Events</a></li>
-                                        <li className="about-nav-item"><a href="news.html">News</a></li>
-                                        <li className="about-nav-item"><a href="schedule.html">Schedule</a></li>
-                                        <li className="about-nav-item"><a href="contact.html">Contact</a></li>
-                                        <li className="about-nav-item"><a href="gallery.html">Resources</a></li>
+                                        <li className={about}><a href="about.html">About</a></li>
+                                        <li className={academics}><a href="academics.html">Academics</a></li>
+                                        <li className={events}><a href="events.html">Events</a></li>
+                                        <li className={news}><a href="news.html">News</a></li>
+                                        <li className={schedules}><a href="schedule.html">Schedule</a></li>
+                                        <li className={contacts}><a href="contact.html">Contact</a></li>
+                                        <li className={resources}><a href="gallery.html">Resources</a></li>
                                     </ul>
                                     
                                 </Row>
