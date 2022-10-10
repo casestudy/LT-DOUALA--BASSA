@@ -10,10 +10,10 @@
     margin: 0 5px 0 0;
 }
 
-.nav li a {
+/* .nav li a {
     padding-left: 2%;
     padding-right: 2%;
-}
+} */
 
 .navbar-light .navbar-nav a::after {
     bottom: -10px;

@@ -60,10 +60,32 @@
 	display:none
 }
 
-/* .about-navbar-nav > li {
-    float: none;
-    position: relative;
-} */
+.about-navbar-nav {
+	text-align: left !important;
+	margin-left: 50px !important;
+	margin-top: 12px !important;
+}
+
+.about-navbar-nav > li > a {
+    text-decoration: none;
+	color: white !important;
+	text-align: left !important;
+	padding: 12px 19px 15px !important;
+}
+
+.navbar-right li{
+	float: none;
+    display: inline-block;
+    vertical-align: middle;
+	margin-top: 10px !important;
+}
+
+.navbar-right li a{
+	color: white !important;
+	text-align: left !important;
+	padding: 15px 19px 15px !important;
+	bottom: -10px;
+}
 
 #js-bootstrap-offcanvas:after {
     content: "";

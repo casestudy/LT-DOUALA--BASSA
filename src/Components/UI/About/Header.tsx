@@ -23,12 +23,12 @@ const Header: React.FC<Prop> = () => {
         <>
             <Container id='masthead' className='site-header'>
                 <Row className='site-header'>
-                    <Col sm={3} md={3} className="site-branding">
+                    <Col sm={2} md={2} className="site-branding">
                         <h1 className='site-title'>
                             <a href='test' title='LTDB'><img src={SchoolLogo} alt='School Logo'/></a>
                         </h1>
                     </Col>
-                    <Col sm={9} md={9}>
+                    <Col sm={8} md={8}>
                         <Nav id="site-navigation" className="navbar">
                             <div className='navbar-offcanvas navbar-offcanvas-touch navbar-offcanvas-right offcanvas-transform js-offcanvas-done' id='js-bootstrap-offcanvas'>
                                 <Row style={{margin: "0 auto"}}>
@@ -41,21 +41,26 @@ const Header: React.FC<Prop> = () => {
                                         <li className="about-nav-item"><a href="contact.html">Contact</a></li>
                                         <li className="about-nav-item"><a href="gallery.html">Resources</a></li>
                                     </ul>
-                                    <ul className='about-navbar-nav navbar-right'>
-                                        <li>
-                                            <a href="search">
-                                                <FontAwesomeIcon icon={brands('twitter')} />
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="twitter">
-                                                <FontAwesomeIcon icon={brands('twitter')} />
-                                            </a>
-                                        </li>
-                                    </ul>
+                                    
                                 </Row>
                             </div>
                         </Nav>
+                    </Col>
+                    <Col sm={2} md={2}>
+                        <Row style={{margin: "0 auto"}}>
+                            <ul className='about-navbar-nav navbar-right'>
+                                <li>
+                                    <a href="search">
+                                        <FontAwesomeIcon icon={brands('twitter')} />
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="twitter">
+                                        <FontAwesomeIcon icon={brands('twitter')} />
+                                    </a>
+                                </li>
+                            </ul>
+                        </Row>
                     </Col>
                 </Row>
             </Container>
