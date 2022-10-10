@@ -8,10 +8,8 @@ import Nav from 'react-bootstrap/Nav';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faSearch } from '@fortawesome/free-solid-svg-icons'
 import { faUser } from '@fortawesome/free-solid-svg-icons'
-//import { solid, regular, brands, icon } from '@fortawesome/fontawesome-svg-core/import.macro' 
-// import Navbar from 'react-bootstrap/Navbar';
-// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-// import { faLocationDot } from '@fortawesome/free-solid-svg-icons'
+
+import { Link } from "react-router-dom";
 
 import SchoolLogo from '../../../Assets/logo-1.png';
 
@@ -71,8 +69,8 @@ const Header: React.FC<Prop> = ({value}) => {
                             <div className='navbar-offcanvas navbar-offcanvas-touch navbar-offcanvas-right offcanvas-transform js-offcanvas-done' id='js-bootstrap-offcanvas'>
                                 <Row style={{margin: "0 auto"}}>
                                     <ul className="about-navbar-nav navbar-left" style={{textAlign: "center", width: "100%", float: "none"}}>
-                                        <li className={about}><a href="about.html">About</a></li>
-                                        <li className={academics}><a href="academics.html">Academics</a></li>
+                                        <li className={about}><Link to = "/aboutus">About</Link></li>
+                                        <li className={academics}><Link to = "/academics">Academics</Link></li>
                                         <li className={events}><a href="events.html">Events</a></li>
                                         <li className={news}><a href="news.html">News</a></li>
                                         <li className={schedules}><a href="schedule.html">Schedule</a></li>

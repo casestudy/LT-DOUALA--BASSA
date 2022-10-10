@@ -1,0 +1,39 @@
+.academics-content{
+	background:#f1f1f1;
+	padding:70px 0 0;
+}
+
+.academics-content .container > .row{
+	display:none;
+}
+
+.academics-content .academic-month{
+	margin:0 15px 70px;
+}
+
+.academics-content .container .row:last-child .academic-month{
+	margin:0;
+}
+
+
+.academics-content .academic-month h2{
+	font-size:30px;
+	color:#004296;
+	text-transform:uppercase;
+	font-family: "Montserrat-Bold";
+	margin:0 0 30px;
+}
+
+.academics-content .academic-month h2 span{
+	font-size:22px;
+	color:#a6b5d4;
+	text-transform:uppercase;
+	font-family: "Montserrat-Light";
+	margin:0 0 0 15px;
+}
+
+.academics-content .academic-month .row > div{
+	display:table-cell;
+	float:none;
+	vertical-align:top;
+}

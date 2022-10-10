@@ -1,0 +1,22 @@
+.academics-pdf-download{
+	text-align:center;
+	padding:50px 0 70px;
+	background:#f1f1f1
+}
+
+
+.academics-pdf-download a {
+    background: #f5ab35 none repeat scroll 0 0;
+    border-bottom: 4px solid #f58c04;
+    border-radius: 5px;
+    color: #fff;
+    display: inline-block;
+    font-size: 18px;
+	line-height:25px;
+    padding: 15px 45px;
+    position: relative;
+    text-align: center;
+    vertical-align: middle;
+	text-transform:uppercase;
+    text-decoration: none;
+}
