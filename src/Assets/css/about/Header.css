@@ -1,58 +1,76 @@
-.site-header {
-    margin: 30px auto;
-    position: absolute;
-    left: 0;
-    right: 0;
-    top: 0;
-    z-index: 9999;
+.site-header{
+	margin:30px auto;
+	position:absolute;
+	left:0;
+	right:0;
+	top:0;
+	z-index:9999;
 }
 
-.navbar-nav > li {
+.site-header .site-branding .site-title a img{
+	max-height:58px;
+	display:block;
+}
+
+.site-header > .row > div{
+	display:inline-block;
+	float:none;
+	margin:0 -4px 0 0;
+	vertical-align:middle;
+}
+
+.site-header #site-navigation{
+	margin:0;
+}
+
+.site-header #site-navigation .navbar-collapse{
+	padding:0 20px;
+}
+
+.site-header #site-navigation .nav li a{
+	font-size:13px;
+	text-transform:uppercase;
+	color:#fff;
+	padding:12px 19px 15px;
+	background:none!important;
+	position:relative;
+}
+
+.site-header #site-navigation .nav li a:before{
+	content: "";
+	height:2px;
+	background:#f5ab35;
+	position:absolute;
+	bottom:0;
+	right:100%;
+	left:5px;
+	transition: all 0.4s;
+}
+
+.site-header #site-navigation .nav li:hover a:before{
+    right: 5px;
+}
+
+.site-header #site-navigation .nav li.active a:before{
+	left:5px;
+	right:5px;
+}
+
+.site-header #site-navigation .navbar-right li:hover a:before{
+	display:none
+}
+
+/* .about-navbar-nav > li {
     float: none;
     position: relative;
+} */
+
+#js-bootstrap-offcanvas:after {
+    content: "";
+    display: table;
+    clear: both;
 }
 
-.nav li {
-    float: none;
-    display: inline-block;
-    vertical-align: middle;
-    margin: 0 5px 0 0;
-}
-
-.nav li a {
-    padding-left: 2%;
-    padding-right: 2%;
-}
-
-.navbar-light .navbar-nav a::after {
-    bottom: -10px;
-    content: " ";
-    left: 0;
-    position: absolute;
-    right: 0;
-    text-align: center;
-    display: inline-block;
-    left:25%; right:25%; 
-}
-
-.nav-item.active {
-    border-bottom: 5px solid #004296;
-}
-
-.navbar-nav a:hover, .navbar-nav a:focus {
-	border-bottom: 5px solid #004296;
-    -moz-transition: all 0.3s ease-in-out 0s;
-    -webkit-transition: all 0.3s ease-in-out 0s;
-    -ms-transition: all 0.3s ease-in-out 0s;
-    -o-transition: all 0.3s ease-in-out 0s;
-    transition: all 0.3s ease-in-out 0s;
-}
-
-.nav li a {
-    font-size: 15px;
-    text-transform: uppercase;
-    color: #004296 !important;
-    padding: 25px 30px 30px !important;
-    background: none !important;
-    font-weight: bold;
+.about-navbar-nav > li > a {
+    color: white; 
 }

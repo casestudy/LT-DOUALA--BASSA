@@ -3,14 +3,14 @@ import 'bootstrap/dist/css/bootstrap.css';
 import '../../../App.css';
 import '../../../Assets/css/hover.min.css';
 import Header from '../../../Components/UI/About/Header'
-
-import SchoolLogo from '../../../Assets/logo.jpg';
+import Hero from '../../../Components/UI/About/Hero'
 
 function AboutUs() {
   return (
     <div>
-      <Header></Header>
-    </div>  
+      	<Header></Header> 
+      	<Hero></Hero>
+    </div>
   );
 }
 

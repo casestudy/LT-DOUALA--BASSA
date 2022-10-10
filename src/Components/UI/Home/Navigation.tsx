@@ -12,7 +12,7 @@ interface Prop {
 }
 
 const Navigation: React.FC<Prop> = () => {
-    const params = window.location.pathname.substring(1);
+    //const params = window.location.pathname.substring(1);
 
     const navigationRoute = () => {
         console.log("Master");
