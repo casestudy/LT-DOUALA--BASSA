@@ -61,6 +61,14 @@ const Header: React.FC<Prop> = ({value}) => {
         schedules = "about-nav-item";
         contacts = "about-nav-item";
         resources = "about-nav-item";
+    } else if(value === "news") {
+        about = "about-nav-item";
+        academics = "about-nav-item";
+        events = "about-nav-item";
+        news = "about-nav-item active";
+        schedules = "about-nav-item";
+        contacts = "about-nav-item";
+        resources = "about-nav-item";
     }
 
     return(
@@ -80,7 +88,7 @@ const Header: React.FC<Prop> = ({value}) => {
                                         <li className={about}><Link to = "/aboutus">About</Link></li>
                                         <li className={academics}><Link to = "/academics">Academics</Link></li>
                                         <li className={events}><Link to="/events">Events</Link></li>
-                                        <li className={news}><a href="news.html">News</a></li>
+                                        <li className={news}><Link to="/news">News</Link></li>
                                         <li className={schedules}><a href="schedule.html">Schedule</a></li>
                                         <li className={contacts}><a href="contact.html">Contact</a></li>
                                         <li className={resources}><a href="gallery.html">Resources</a></li>
