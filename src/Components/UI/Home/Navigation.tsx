@@ -30,7 +30,7 @@ const Navigation: React.FC<Prop> = () => {
                                 <li className="nav-item"><Link className="nav-link" to="/academics">Academics</Link></li>
                                 <li className="nav-item"><Link className="nav-link" to="/events">Events</Link></li>
                                 <li className="nav-item"><Link className="nav-link" to="/news">News</Link></li>
-                                <li className="nav-item"><a className="nav-link" href="#offers">Schedule</a></li>
+                                <li className="nav-item"><Link className="nav-link" to="/schedules">Schedule</Link></li>
                                 <li className="nav-item"><a className="nav-link" href="#offers">Contact</a></li>
                                 <li className="nav-item"><a className="nav-link" href="#offers">Resource</a></li>
                             </ul>
